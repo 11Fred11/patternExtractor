@@ -4,7 +4,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Gmail][gmail-shield]][gmail-url]
-[![Behance][behance-shield]][behance-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -16,7 +15,9 @@
   <h3 align="center">PATTERN EXTRACTOR</h3>
 
   <p align="center">
-    Desktop application to help BioInformatics engineers do N-gram analysis on DNA Sequences(Bool/Freq/Occ/TFIDF).
+    Desktop application to help BioInformatics engineers do N-gram analysis on DNA Sequences
+  
+   (Bool/Freq/Occ/TFIDF).
     <br />
     <a href="https://github.com/10Fred10/patternExtractor/raw/master/Motif-Extractor.exe" target="_blank"><strong>« DOWNLOAD »</strong></a>
     <br />
@@ -54,10 +55,10 @@
 
 ### Built With
 
-- [PYTHON](https://en.wikipedia.org/wiki/Python_(genus)) A genus of constricting snakes in the Pythonidae family native to the tropics and subtropics of the Eastern Hemisphere.
-- [TKINTER](https://wiki.python.org/moin/TkInter) _Graphical User Interface package_ to create the UI.
-- [NLTK](https://www.nltk.org/) _Natural Language Toolkit_ to generate the `ngrams`.
-- [NUMPY](http://www.numpy.org/) _Package for scientific computing_ Helps with N-dimensional array objects.
+- [PYTHON](https://en.wikipedia.org/wiki/Python_(genus)) A genus of constricting snakes in the Pythonidae family living in the Eastern Hemisphere.
+- [TKINTER](https://wiki.python.org/moin/TkInter) : _Graphical User Interface package_ | Creates the UI.
+- [NLTK](https://www.nltk.org/) : _Natural Language Toolkit_ | Generates the `ngrams`.
+- [NUMPY](http://www.numpy.org/) : _Package for scientific computing_ | Helps with N-dimensional array objects.
 
 
 <!-- GETTING STARTED -->
@@ -77,18 +78,20 @@ Simply download the `Motif-Extractor.exe` file and run it.
 
 All the steps are mentionned in the UI already, Upload a file -> Fix the parameters and run the program.
 
-<p align="center">
+<p align="center" box-shadow="0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5)">
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/pattern-gif.gif">
 </p>
 
 :bulb: **Input File :**
- -Should be a .txt file.
- -First couple of lines should describe these points :
-  -Number of classes.
-  -Number of Sequences in each class.
-  -The beginning of a class starting from `0`.
+
+   1 Should be a .txt file.
+   2 First couple of lines should describe these points :
+    -Number of classes.
+    -Number of Sequences in each class.
+    -The beginning of a class starting from `0`.
 
 :star: **Output File :**
+
 The output file will be a `.txt` file containing a matrix.
 >I could've gone for an `Excel` file here but that won't be a good choice,
 we are dealing with **huge** sequences here, and writing an Excel file will take unnecessary time.
@@ -117,3 +120,5 @@ The DataMining software used afterward accepts `.txt` files and works just fine.
 [gmail-url]: mailto:contact.hammami.fredj@gmail.com
 [behance-shield]: https://img.shields.io/badge/Behance-blue.svg?style=flat-square&logo=behance&logoColor=white
 [behance-url]: https://www.behance.net/fredhm
+[license-shield]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
+[license-url]: https://choosealicense.com/licenses/mit
