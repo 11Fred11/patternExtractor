@@ -15,9 +15,7 @@
   <h3 align="center">PATTERN EXTRACTOR</h3>
 
   <p align="center">
-    Desktop application to help BioInformatics engineers do N-gram analysis on DNA Sequences
-  
-   (Bool/Freq/Occ/TFIDF).
+    Desktop application to help BioInformatics engineers do N-gram analysis on DNA Sequences<br />(Bool/Freq/Occ/TFIDF).
     <br />
     <a href="https://github.com/10Fred10/patternExtractor/raw/master/Motif-Extractor.exe" target="_blank"><strong>« DOWNLOAD »</strong></a>
     <br />
@@ -43,9 +41,7 @@
 ## About The Project
 
 <p align="center">
-  <a href="#">
-    <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/img/Motif-Extractor.png">
-  </a>
+  <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/Motif-Extractor.png">
 </p>
 <br>
 
