@@ -30,11 +30,14 @@
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+Table of Contents | 
+------------ |
+- [About the Project](#about-the-project) |
+- [Installation](#installation) |
+- [Usage](#usage) |
+- [Contact](#contact) |
+- [Acknowledgements](#acknowledgements) | 
+***
 
 <!-- ABOUT THE PROJECT -->
 
@@ -44,8 +47,8 @@
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/Motif-Extractor.png">
 </p>
 <br>
-
-
+This is a project i made in my BioInformatics Class.
+A desktop application that splits a genome sequence into words of length k, then generates a Boolean | Frequency | Occurence | TFIDF matrix and exports it so i could use it later to train a model that classifies a sequences based on it's similarities 
 
 > _Used resources are listed in the acknowledgements._
 
@@ -74,17 +77,17 @@ Simply download the `Motif-Extractor.exe` file and run it.
 
 All the steps are mentionned in the UI already, Upload a file -> Fix the parameters and run the program.
 
-<p style="box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); align : center">
+<p align = "center">
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/pattern-gif.gif">
 </p>
 
 :bulb: **Input File :**
 
-   1 Should be a .txt file.
-   2 First couple of lines should describe these points :
-    -Number of classes.
-    -Number of Sequences in each class.
-    -The beginning of a class starting from `0`.
+1. Should be a .txt file.
+2. First couple of lines should describe these points :
+   * Number of classes.
+   * Number of Sequences in each class.
+   * The beginning of a class starting from `0`.
 
 :star: **Output File :**
 
