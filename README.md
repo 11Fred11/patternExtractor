@@ -74,7 +74,7 @@ Simply download the `Motif-Extractor.exe` file and run it.
 
 All the steps are mentionned in the UI already, Upload a file -> Fix the parameters and run the program.
 
-<p align="center" box-shadow="0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5)">
+<p style="box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); align : center">
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/pattern-gif.gif">
 </p>
 
@@ -92,6 +92,10 @@ The output file will be a `.txt` file containing a matrix.
 >I could've gone for an `Excel` file here but that won't be a good choice,
 we are dealing with **huge** sequences here, and writing an Excel file will take unnecessary time.
 The DataMining software used afterward accepts `.txt` files and works just fine.
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/seq-img.png">
+</p>
 
 <!-- CONTACT -->
 
