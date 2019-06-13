@@ -28,8 +28,6 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
-
 Table of Contents | 
 ------------ |
 [About the Project](#about-the-project) |
@@ -37,7 +35,7 @@ Table of Contents |
 [Usage](#usage) |
 [Contact](#contact) |
 [Acknowledgements](#acknowledgements) | 
-***
+
 
 <!-- ABOUT THE PROJECT -->
 
