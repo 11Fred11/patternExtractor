@@ -53,7 +53,7 @@ A desktop application that splits a genome sequence into words of length k, then
 ### Built With
 
 <p align="center">
-  <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/built-with.png">
+  <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/used.png">
 </p>
 
 
