@@ -27,7 +27,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<p align = "center">
+<div align = "center">
   Table of Contents | 
   ------------ |
   [About the Project](#about-the-project) |
@@ -35,7 +35,7 @@
   [Usage](#usage) |
   [Contact](#contact) |
   [Acknowledgements](#acknowledgements) | 
-</p>
+</div>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -45,6 +45,7 @@
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/Motif-Extractor.png">
 </p>
 <br>
+
 >_This is a project i made in my BioInformatics Class._
 
 A desktop application that splits a genome sequence into words of length k, then generates a `Boolean` | `Frequency` | `Occurence` | `TFIDF` matrix i use later to train a classifier. 
@@ -72,7 +73,7 @@ Simply download the `Motif-Extractor.exe` file and run it.
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/Explained.png">
 </p>
 
-All the steps are mentionned in the UI already, Upload a file -> Fix the parameters and run the program.
+Fllow the steps mentionned in the UI and you should be fine.
 
 <p align = "center">
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/pattern-gif.gif">
@@ -93,6 +94,7 @@ All the steps are mentionned in the UI already, Upload a file -> Fix the paramet
 :star: **Output File :**
 
 The output file will be a `.txt` file containing a matrix.
+
 >I could've gone for an `Excel` file here but that won't be a optimal,
 we are dealing with **huge** sequences here, and writing an Excel file will take unnecessary time.
 
