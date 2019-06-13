@@ -27,15 +27,15 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-
-Table of Contents | 
------------- |
-[About the Project](#about-the-project) |
-[Installation](#installation) |
-[Usage](#usage) |
-[Contact](#contact) |
-[Acknowledgements](#acknowledgements) | 
-
+<p align = "center">
+  Table of Contents | 
+  ------------ |
+  [About the Project](#about-the-project) |
+  [Installation](#installation) |
+  [Usage](#usage) |
+  [Contact](#contact) |
+  [Acknowledgements](#acknowledgements) | 
+</p>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -45,11 +45,9 @@ Table of Contents |
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/Motif-Extractor.png">
 </p>
 <br>
-This is a project i made in my BioInformatics Class.
+>_This is a project i made in my BioInformatics Class._
 
 A desktop application that splits a genome sequence into words of length k, then generates a `Boolean` | `Frequency` | `Occurence` | `TFIDF` matrix i use later to train a classifier. 
-
-> _Used resources are listed in the acknowledgements._
 
 ### Built With
 
@@ -71,7 +69,7 @@ Simply download the `Motif-Extractor.exe` file and run it.
 
 
 <p align="center">
-  <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/Motif-Extractor-explained.png">
+  <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/Explained.png">
 </p>
 
 All the steps are mentionned in the UI already, Upload a file -> Fix the parameters and run the program.
