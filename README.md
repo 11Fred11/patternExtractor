@@ -46,9 +46,9 @@ Table of Contents |
 </p>
 <br>
 
->_This is a project i made in my BioInformatics Class._
+>_This is a project I made in my BioInformatics Class._
 
-A desktop application that splits a genome sequence into words of length k, then generates a `Boolean` | `Frequency` | `Occurence` | `TFIDF` matrix i use later to train a classifier. 
+A desktop application that splits a genome sequence into words of length k, then generates a `Boolean` | `Frequency` | `Occurence` | `TFIDF` matrix I use later to train a classifier. 
 
 ### Built With
 
