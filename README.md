@@ -27,15 +27,15 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<div align = "center">
-  Table of Contents | 
-  ------------ |
-  [About the Project](#about-the-project) |
-  [Installation](#installation) |
-  [Usage](#usage) |
-  [Contact](#contact) |
-  [Acknowledgements](#acknowledgements) | 
-</div>
+
+Table of Contents | 
+------------ |
+[About the Project](#about-the-project) |
+[Installation](#installation) |
+[Usage](#usage) |
+[Contact](#contact) |
+[Acknowledgements](#acknowledgements) | 
+
 
 <!-- ABOUT THE PROJECT -->
 
@@ -81,7 +81,7 @@ Fllow the steps mentionned in the UI and you should be fine.
 
 :bulb: **Input File :**
 
-1. Should be a .txt file.
+1. Should be a `.txt` file.
 2. First couple of lines should have these points :
    * Number of classes.
    * Number of Sequences in each class.
