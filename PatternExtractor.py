@@ -1,3 +1,7 @@
+#This code is messy, i couldn't find the time to make it cleaner.
+#Proceed at your own risk
+#----------------------------------------------
+
 import tkinter
 from tkinter import ttk
 from tkinter.filedialog import *
