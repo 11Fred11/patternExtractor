@@ -55,7 +55,8 @@ A desktop application that splits a genome sequence into words of length k, then
 <p align="center">
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/built-with.png">
 </p>
-<br>
+
+
 - [PYTHON](https://en.wikipedia.org/wiki/Python_(genus)) A genus of constricting snakes in the Pythonidae family living in the Eastern Hemisphere.
 - [TKINTER](https://wiki.python.org/moin/TkInter) : _Graphical User Interface package_ | Creates the UI.
 - [NLTK](https://www.nltk.org/) : _Natural Language Toolkit_ | Generates the `ngrams`.
