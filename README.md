@@ -15,7 +15,7 @@
   <h3 align="center">PATTERN EXTRACTOR</h3>
 
   <p align="center">
-    Desktop application to help BioInformatics engineers do N-gram analysis on DNA Sequences<br />(Bool/Freq/Occ/TFIDF).
+    Desktop application to help BioInformatics engineers do N-gram analysis on DNA Sequences
     <br />
     <a href="https://github.com/10Fred10/patternExtractor/raw/master/Motif-Extractor.exe" target="_blank"><strong>« DOWNLOAD »</strong></a>
     <br />
@@ -32,11 +32,11 @@
 
 Table of Contents | 
 ------------ |
-- [About the Project](#about-the-project) |
-- [Installation](#installation) |
-- [Usage](#usage) |
-- [Contact](#contact) |
-- [Acknowledgements](#acknowledgements) | 
+[About the Project](#about-the-project) |
+[Installation](#installation) |
+[Usage](#usage) |
+[Contact](#contact) |
+[Acknowledgements](#acknowledgements) | 
 ***
 
 <!-- ABOUT THE PROJECT -->
@@ -48,7 +48,8 @@ Table of Contents |
 </p>
 <br>
 This is a project i made in my BioInformatics Class.
-A desktop application that splits a genome sequence into words of length k, then generates a Boolean | Frequency | Occurence | TFIDF matrix and exports it so i could use it later to train a model that classifies a sequences based on it's similarities 
+
+A desktop application that splits a genome sequence into words of length k, then generates a `Boolean` | `Frequency` | `Occurence` | `TFIDF` matrix i use later to train a classifier. 
 
 > _Used resources are listed in the acknowledgements._
 
@@ -84,21 +85,24 @@ All the steps are mentionned in the UI already, Upload a file -> Fix the paramet
 :bulb: **Input File :**
 
 1. Should be a .txt file.
-2. First couple of lines should describe these points :
+2. First couple of lines should have these points :
    * Number of classes.
    * Number of Sequences in each class.
    * The beginning of a class starting from `0`.
 
-:star: **Output File :**
-
-The output file will be a `.txt` file containing a matrix.
->I could've gone for an `Excel` file here but that won't be a good choice,
-we are dealing with **huge** sequences here, and writing an Excel file will take unnecessary time.
-The DataMining software used afterward accepts `.txt` files and works just fine.
-
 <p align="center">
   <img  src="https://raw.githubusercontent.com/10Fred10/patternExtractor/master/readme-assets/seq-img.png">
 </p>
+
+:star: **Output File :**
+
+The output file will be a `.txt` file containing a matrix.
+>I could've gone for an `Excel` file here but that won't be a optimal,
+we are dealing with **huge** sequences here, and writing an Excel file will take unnecessary time.
+
+The DataMining software used afterward accepts `.txt` files and works just fine.
+
+
 
 <!-- CONTACT -->
 
